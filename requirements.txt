@@ -1,0 +1,18 @@
+matplotlib
+pandas 
+streamlit
+plotly.express 
+numpy 
+# streamlit-bokeh-events
+faker
+scipy
+datetime
+streamlit_drawable_canvas
+aif360[All]
+streamlit_ace
+gretel_client
+bokeh
+ctgan
+ruamel.yaml
+table-evaluator
+streamlit_bokeh_events

@@ -1,0 +1,1 @@
+op[i]=random.randint(1000,5000)

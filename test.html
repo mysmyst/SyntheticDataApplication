@@ -1,0 +1,50 @@
+<html>
+<style>
+    .floating-menu {
+        font-family: sans-serif;
+        background: black;
+        padding: 5px;
+        ;
+        width: 180px;
+        z-index: 100;
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .floating-menu a,
+    .floating-menu h3 {
+        font-size: 0.9em;
+        display: block;
+        margin: 0 0.5em;
+        color: white;
+    }
+</style>
+<nav class="floating-menu">
+    <h3>Data Tweaking Labs🧊</h3>
+    <a href="https://github.com/synthdatagen">Github</a>
+    <a
+        href="https://docs.google.com/presentation/d/1H2cDNjSosFWmXeIfXjcs_qUbVFiEZqbJBaqiaUtnAws/edit?usp=sharing">Presentation</a>
+    <a href="">Paper</a>
+
+</nav>
+
+st.markdown(htmlp2, unsafe_allow_html=True)
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+</script>
+
+</html>
